@@ -1,0 +1,381 @@
+{
+  "groups": [
+    {
+      "name": "com.uun.gobah.outbound",
+      "type": "com.learn.kafka.springbootkafka.oubound.OutboundProperties",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher",
+      "type": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$PublisherSetting",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka",
+      "type": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$PublisherSetting"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka",
+      "type": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$PublisherSetting"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka",
+      "type": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$PublisherSetting"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka",
+      "type": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$PublisherSetting"
+    }
+  ],
+  "properties": [
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.ack-count",
+      "type": "java.lang.String",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.ack-count",
+      "type": "java.lang.String",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.ack-count",
+      "type": "java.lang.String",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.ack-count",
+      "type": "java.lang.String",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.batch-size",
+      "type": "org.springframework.util.unit.DataSize",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.batch-size",
+      "type": "org.springframework.util.unit.DataSize",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.batch-size",
+      "type": "org.springframework.util.unit.DataSize",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.batch-size",
+      "type": "org.springframework.util.unit.DataSize",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.bootstrap-servers",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": "localhost:9092"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.bootstrap-servers",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": "localhost:9092"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.bootstrap-servers",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": "localhost:9092"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.bootstrap-servers",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": "localhost:9092"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.buffer-memory",
+      "type": "org.springframework.util.unit.DataSize",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.buffer-memory",
+      "type": "org.springframework.util.unit.DataSize",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.buffer-memory",
+      "type": "org.springframework.util.unit.DataSize",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.buffer-memory",
+      "type": "org.springframework.util.unit.DataSize",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": "com-uun-gobah-publisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": "com-uun-gobah-publisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": "com.uun.gobah.publisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": "com.uun.gobah.publisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.compression-type",
+      "type": "java.lang.String",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.compression-type",
+      "type": "java.lang.String",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.compression-type",
+      "type": "java.lang.String",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.compression-type",
+      "type": "java.lang.String",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.delivery-timeout-ms-config",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.delivery-timeout-ms-config",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.delivery-timeout-ms-config",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.delivery-timeout-ms-config",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.key-serializer",
+      "type": "java.lang.Class<?>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.key-serializer",
+      "type": "java.lang.Class<?>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.key-serializer",
+      "type": "java.lang.Class<?>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.key-serializer",
+      "type": "java.lang.Class<?>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.max-block-ms-config",
+      "type": "java.lang.Long",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.max-block-ms-config",
+      "type": "java.lang.Long",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.max-block-ms-config",
+      "type": "java.lang.Long",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.max-block-ms-config",
+      "type": "java.lang.Long",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.properties",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.properties",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.properties",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.properties",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.reconnect-backoff-max-ms-config",
+      "type": "java.lang.Long",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 1000
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.reconnect-backoff-max-ms-config",
+      "type": "java.lang.Long",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 1000
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.reconnect-backoff-max-ms-config",
+      "type": "java.lang.Long",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 1000
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.reconnect-backoff-max-ms-config",
+      "type": "java.lang.Long",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 1000
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.reconnect-backoff-ms-config",
+      "type": "java.lang.Long",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 50
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.reconnect-backoff-ms-config",
+      "type": "java.lang.Long",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 50
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.reconnect-backoff-ms-config",
+      "type": "java.lang.Long",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 50
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.reconnect-backoff-ms-config",
+      "type": "java.lang.Long",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 50
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.request-timeout-ms-config",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 30000
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.request-timeout-ms-config",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 30000
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.request-timeout-ms-config",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 30000
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.request-timeout-ms-config",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 30000
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.retries",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.retries",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.retries",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.retries",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.transaction-timeout-config",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 60000
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.transaction-timeout-config",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 60000
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.transaction-timeout-config",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 60000
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.transaction-timeout-config",
+      "type": "java.lang.Integer",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher",
+      "defaultValue": 60000
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.value-serializer",
+      "type": "java.lang.Class<?>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.value-serializer",
+      "type": "java.lang.Class<?>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.value-serializer",
+      "type": "java.lang.Class<?>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    },
+    {
+      "name": "com.uun.gobah.outbound.publisher.kafka.value-serializer",
+      "type": "java.lang.Class<?>",
+      "sourceType": "com.learn.kafka.springbootkafka.oubound.OutboundProperties$KafkaPublisher"
+    }
+  ],
+  "hints": []
+}
